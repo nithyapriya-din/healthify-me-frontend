@@ -1,0 +1,22 @@
+.Active .card {
+    width: 100%;
+    max-width: 350px; /* Limiting card width for better readability on larger screens */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow for depth */
+    transition: transform 0.3s ease; /* Adding smooth transition effect */
+    border: 2px solid #cccccc6d;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Adding slight lift on hover */
+}
+
+.card-title {
+    font-size: 1.2rem; /* Increasing font size for title */
+    margin-bottom: 0.5rem; /* Adding some space below the title */
+}
+
+.card-text {
+    font-size: 1rem; /* Adjusting font size for card text */
+}
+
